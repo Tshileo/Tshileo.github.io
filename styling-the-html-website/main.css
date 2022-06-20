@@ -24,6 +24,7 @@ li:nth-child(odd){
 
 nav a:hover{
   background-color: rgb(185, 45, 162);
+  color: white;
 }
 
 nav a{
@@ -33,6 +34,7 @@ nav a{
   text-decoration: none;
   display: inline-block;
   font-size: large;
+  color: black;
 }
 
 
