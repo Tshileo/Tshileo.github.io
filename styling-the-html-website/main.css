@@ -1,0 +1,38 @@
+body {
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 18px;
+  }
+
+header, footer{
+  background-color: pink;
+  padding: 15px;
+}
+
+#my-image{
+  height: 400px;
+  box-shadow: 1px 1px 2px 1px #000000;
+}
+
+.mainh{
+  color: white
+}
+
+li:nth-child(odd){
+  list-style: square;
+  background-color: pink;
+}
+
+nav a:hover{
+  background-color: rgb(185, 45, 162);
+}
+
+nav a{
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+}
+
+
