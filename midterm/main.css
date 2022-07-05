@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: #aad4cf;
+}
+.container{
+    margin: 0 auto 0 auto;
+    width: 980px;
+    background-color: #d4e9e7;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header{
+    background-image: url(images/lone-starfish-wide.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    
+}
+header h1{
+    color: white;
+    font-size:2.75rem;
+    position:absolute;
+    top:12.9rem;
+    left:53rem;
+}
+
+ a{
+    text-decoration: none;
+    padding: 90px;
+    font-size: 1.50rem;
+    color: black;
+}
+
+nav {
+    text-align: center;
+    padding:5px 60px;
+    
+}
+
+article h2{
+    font-size: 1.75rem;
+    padding-left: 10px;
+    padding-top:20px;
+}
+
+
+
+img{
+    width: 200px;
+    padding: 10px;
+    float: left;
+}
+
+p{
+    padding-bottom: 25px;
+    line-height: 19px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.article2 h2{
+    font-size: 1.75rem;
+    padding-bottom: 15px;
+}
+
+.article2 ul, li{
+    padding-left:20px ;
+    list-style:disc;
+}
+
+h3{
+    padding: 10px;
+    font-size: 1.75rem
+}
+
+form{
+    padding-top: 25px;
+    margin-left: 10px;
+    border:1px solid black;
+    width: 960px;
+    padding-bottom: 65px;
+    }
+
+textarea{
+    width: 930px;
+    height: 100px;
+    resize: none;
+    margin-left: 10px;
+}
+
+.contact input {
+    width:930px;
+    margin-left: 10px;
+ }
+
+
+ body .container footer{
+    padding-bottom: 51px;
+    margin-bottom:16px;
+    text-align: right;
+    padding-right:34px;
+    padding-top:36px;
+}
+
+label{
+    padding-left: 10px;
+}
+
+.sendbtn {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 11px;
+    margin-top:21px;
+    margin-bottom: 18px;
+    width: 54px;
+    color:rgb(0, 0, 0);
+    background-color: #d4e9e7;
+    position: absolute;
+    right:85rem;
+
+}
