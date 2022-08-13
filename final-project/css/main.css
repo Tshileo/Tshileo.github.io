@@ -193,6 +193,11 @@ main .welcome {
 /* our services section
 digital section */
 
+.services{
+    width: 95%;
+    margin: 0 auto;
+}
+
 .services img{
     width: 100%;
 }
@@ -340,6 +345,104 @@ digital section */
     display: flex;
     padding-left: 1rem;
 }
+
+
+
+
+/* our vision section */
+
+
+.vision{
+    background-image: url(/final-project/images/vision.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 353px;
+    width: 100%;
+    margin-top: 1rem;
+}
+  
+.vision, .vision p {
+    color: white;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.vision h1{
+    padding: 4rem 0 2rem;
+    font-size: 2rem;
+}
+
+.visionbtn{
+    display: flex;
+    border:#c78c06 1px solid;
+    width: fit-content;
+    padding: 2rem;
+    background-color: #000000;
+    color: white;
+    margin: 2rem 1rem ;
+    flex-direction: row;
+}
+
+.visionbtn .fa-solid{
+    display: flex;
+    padding-left: 1rem;
+}
+
+
+/* our team section */
+
+.team{
+    margin: 0 auto;
+    width: 95%;
+    padding-top: 2rem;
+}
+
+.team img{
+    width: 100%;
+}
+
+.member1{
+    background-color: #ffe6ac;
+    margin-top:1rem;
+}
+
+.member1 h1{
+    font-size: 2rem;
+    margin: 1rem 1rem 0.5rem ;
+}
+
+.member1 h2{
+    font-size: 1.1rem;
+    border-bottom: #c78c06 solid 3px;
+}
+
+.member1 p{
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+
+.member2{
+    background-color: #ffe6ac;
+    margin-top:1rem;
+}
+
+.member2 h1{
+    font-size: 2rem;
+    margin: 1rem 1rem 0.5rem ;
+}
+
+.member2 h2{
+    font-size: 1.1rem;
+    border-bottom: #c78c06 solid 3px;
+}
+
+.member2 p{
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+
 
 
 
